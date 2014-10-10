@@ -1,0 +1,68 @@
+﻿<head>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(".Interno").click(function (event) {
+            $("#infoS").load('Interno.html');
+        });
+    });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".Externo").click(function (event) {
+                $("#infoS").load('Externo.html');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".Fechas").click(function (event) {
+                $("#infoS").load('Fechas.html');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".Programas").click(function (event) {
+                $("#infoS").load('Programas.html');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".RMensual").click(function (event) {
+                $("#infoS").load('RMensual.html');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".RGlobal").click(function (event) {
+                $("#infoS").load('RGlobal.html');
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".Liberacion").click(function (event) {
+                $("#infoS").load('Liberacion.html');
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <h2>Selecciona el tipo de servicio social de tu interés:</h2>
+    <div class="selectOptionS">
+        <div class="Interno">S.S. <br />Interno</div>
+        <div class="Externo">S.S. <br />Externo</div>
+        <div class="Fechas">Fechas /<br />Registro</div>
+        <div class="Programas">Programas</div>
+        <div class="RMensual">Reporte <br /> Mensual</div>
+        <div class="RGlobal">Reporte <br /> Global</div>
+        <div class="Liberacion">Liberación <br /> S.S.</div>
+    </div>
+    <br />
+    <div id="infoS">
+
+    </div>
+</body>
